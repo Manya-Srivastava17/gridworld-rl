@@ -11,7 +11,7 @@ Features
 File Structure
 
 .
-├── notebooks/              Training scripts (Q-Learning, DQN, Double DQN)
+├── notebooks/              Training scripts (Q-Learning, DQN, Double DQN), compare_final.py to generate plots
 ├── src/                    Environment and model definitions
 │   ├── env.py              Gridworld environment
 │   ├── dqn.py              DQN training logic
@@ -19,8 +19,7 @@ File Structure
 ├── outputs/                Saved .npy files and result plots
 ├── report/                 Final project report
 ├── slides/                 Presentation slides
-├── data/                   Grid layout CSV file
-├── compare_final.py        Generates comparison plots
+├── data/                   Grid layout CSV file     
 ├── q_learning.py           Runs Q-learning separately
 ├── requirements.txt        Python dependencies
 └── README.md               Project overview
